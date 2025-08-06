@@ -1,0 +1,17 @@
+{
+  "name": "password-protected-iframe",
+  "version": "1.0.0",
+  "description": "A password-protected iframe page deployed on Vercel",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["vercel", "iframe", "password-protected"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}
