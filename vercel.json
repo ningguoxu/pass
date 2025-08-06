@@ -19,9 +19,5 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ],
-  "env": {
-    "ACCESS_PASSWORD": "@access_password",
-    "TARGET_URL": "@target_url"
-  }
+  ]
 }
